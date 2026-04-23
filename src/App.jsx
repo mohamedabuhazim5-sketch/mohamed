@@ -72,24 +72,24 @@ export default function App() {
     () => ({
       heroName: DISPLAY_NAME,
       heroSub:
-        "في وسط كل الوجوه الكثيرة... فضل اسمك مختلف، وحضورك ثابت، وأثرك ما اتنسيش.",
+        "حين يسألوني عنك سأقول: سعادة دخلت حياتي ولا أريد لها أن تنتهي ♥️",
       heroText:
-        "المكان ده معمول مخصوص ليك، بتفاصيل بسيطة لكن ليها معنى كبير. الفكرة مش مجرد صور أو كلام، لكنها مساحة فيها تقدير، ذكرى، وإحساس صادق متجمعين في شكل يليق بشخص ليه مكانة حقيقية.",
-      meetTitle: "من أول ما عرفتك",
+        "المكان ده معمول ليك أنتَ وبس... معمول بكل الحب، وبكل المشاعر اللي ما عرفتش الأيام تقلل منها. يمكن الكلام ما يشرحش كل اللي جوايا، لكن يكفي إنك كنت وما زلت من أجمل النِعم اللي دخلت حياتي.",
+      meetTitle: "من أول ما عرفتك ♥️",
       meetDate: "2 / 11 / 2023",
-      timerTitle: "من أول ما بقيت جزء مهم",
+      timerTitle: "من أول ما دخلت حياتي",
       timerText:
-        "في ناس بنعرفهم عادي، وفي ناس وجودهم بيفرق فعلًا. وإنت من الناس اللي حضورهم بيترك أثر واضح، ويفضل موجود حتى مع مرور الوقت.",
+        "من وقت ما عرفتك، وحاجات كتير جوايا اتغيرت... بقيت أشوف الدنيا بشكل أهدى، وأحس إن في شخص وجوده لوحده كفاية يخلّي كل حاجة أجمل.",
       longMessage:
-        "أنا مش كاتب الكلام ده لمجرد المجاملة، ولا عشان أوصل حاجة مؤقتة. أنا كاتبه لأن بعض الناس ليهم قيمة حقيقية، ومكانتهم ما بتكونش عابرة. وإنت من الناس اللي استحقوا التقدير، والذكرى، والكلام اللي يتكتب بصدق.",
+        "أنت مش شخص عادي في حياتي، ولا وجودك كان يومًا شيء بسيط. أنت الحضور اللي طمّن قلبي، والاسم اللي كل ما ييجي في بالي ييجي معاه إحساس حلو، وراحة ما تتوصفش. ولو كنت هختصر كل اللي جوايا في كلمة، فهقول إنك من أجمل الحاجات اللي حصلتلي.",
       cuteText:
-        "صفحة معمولة بتقدير حقيقي... وتفاصيل مخصوصة... بشكل يليق باسمك.",
+        "You entered my life... and I don't want it to end 🤍",
       finalText:
-        "يمكن الأيام بتتغير، والظروف بتاخدنا في اتجاهات مختلفة، لكن في أشخاص بيفضل لهم أثر واضح مهما مر الوقت. والصفحة دي معمولـة عشان تفضل ذكرى مرتبة، مميزة، وتستحق الاحتفاظ بيها.",
+        "يمكن الكلام يخلص، لكن إحساسي ناحيتك عمره ما كان مجرد كلام. أنت شخص دخل حياتي بشكل مختلف، وترك في قلبي شيء جميل ما اتغيرش. وكل اللي أتمناه إنك تفضل قريب، وتفضل نفس السعادة اللي دخلت حياتي ومش عايزاها تنتهي أبدًا.",
       lastWords:
-        "ولو كان لازم يتقال آخر كلام، فهو إن بعض الأشخاص ما بيكونوش مجرد مرحلة أو معرفة عادية... لكن بيبقوا قيمة، أثر، وذكرى محترمة تفضل موجودة حتى بعد ما تعدي الأيام.",
+        "ولو في آخر كلام ممكن يتقال... فأنا أقول إنك أجمل صدفة، وأحنّ حضور، والسعادة اللي دخلت حياتي وما بقتش قادرة أتخيلها من غيرك ♥️",
       prayerText:
-        "أتمنى لك راحة في بالك، وتوفيق في خطوتك، ونجاح يليق بك، وأيام أهدى وأفضل. وربنا يكتب لك الخير في كل طريق تمشي فيه، ويجعل القادم أحسن وأقرب لكل شيء تتمناه.",
+        "بدعي لك دايمًا من قلبي... إن ربنا يحفظك، ويوفقك، ويكتب لك الخير في كل خطوة، ويخلي لك في حياتك راحة تشبه جمال قلبك، وسعادة تليق بيك.",
     }),
     []
   );
@@ -100,64 +100,64 @@ export default function App() {
         id: 1,
         title: "البداية",
         image: "/1.jpg",
-        date: "أول انطباع",
-        text: "من البداية كان واضح إنك شخص مختلف، وليك حضور يبان من غير مجهود.",
+        date: "أول إحساس",
+        text: "من أول مرة، كان في إحساس مختلف... إحساس قال لي إنك مش شبه أي حد.",
       },
       {
         id: 2,
-        title: "الأسلوب",
+        title: "وجودك",
         image: "/2.jpg",
-        date: "تفصيلة مميزة",
-        text: "في ناس بتلفت النظر بالكلام، وناس بالفعل. وإنت كنت من النوع اللي حضوره يفرض احترامه.",
+        date: "نعمة جميلة",
+        text: "وجودك في حياتي كان من الحاجات اللي خلت كل شيء أهدى وأجمل.",
       },
       {
         id: 3,
-        title: "الحضور",
+        title: "قربك",
         image: "/3.jpg",
-        date: "أثر واضح",
-        text: "وجودك في أي مكان بيضيف له طابع مختلف، وبيخلي التفاصيل أهدى وأرتب.",
+        date: "راحة",
+        text: "في قربك شيء يشبه الطمأنينة... كأن القلب لقى مكانه أخيرًا.",
       },
       {
         id: 4,
-        title: "الكلام",
+        title: "اسمك",
         image: "/4.jpg",
-        date: "ثقل وهدوء",
-        text: "أسلوبك له طابع خاص، فيه هدوء وثبات، وده من الحاجات اللي تفضل مميزة.",
+        date: "في قلبي",
+        text: "اسمك لما ييجي في بالي، ييجي معاه شعور جميل ما أعرفش أوصفه.",
       },
       {
         id: 5,
-        title: "النظرة",
+        title: "ضحكتك",
         image: "/5.jpg",
-        date: "قوة بسيطة",
-        text: "أحيانًا نظرة واحدة كفاية تقول كثير، وإنت من الناس اللي حضورهم بيتفهم من غير شرح.",
+        date: "تفصيلة حلوة",
+        text: "ضحكتك من الحاجات اللي تكفي تغيّر يوم كامل وتخلّي كل شيء ألطف.",
       },
       {
         id: 6,
-        title: "الهيبة",
+        title: "مكانك",
         image: "/6.jpg",
-        date: "تفصيلة ثابتة",
-        text: "في فرق بين حد موجود وخلاص، وحد وجوده له وزن. وإنت من النوع التاني.",
+        date: "ثابت",
+        text: "فيه ناس بتيجي وتعدي... وأنت من الناس اللي مكانهم بيفضل ثابت.",
       },
       {
         id: 7,
-        title: "المكانة",
+        title: "الأمان",
         image: "/7.jpg",
-        date: "قدر خاص",
-        text: "مش كل الناس بيكون لهم نفس المكانة، وبعض الأسماء تفضل محفوظة باحترام مختلف.",
+        date: "إحساس مختلف",
+        text: "أنت من الناس اللي وجودهم يطمن القلب من غير كلام كثير.",
       },
       {
         id: 8,
         title: "الذكرى",
         image: "/8.jpg",
-        date: "مع الوقت",
-        text: "مرور الوقت ما بيشيلش قيمة الناس الحقيقية، بالعكس أحيانًا بيوضحها أكثر.",
+        date: "لا تنسى",
+        text: "كل حاجة مرتبطة بيك ليها طعم مختلف... وكل ذكرى ليها مكان خاص.",
       },
       {
         id: 9,
-        title: "التقدير",
+        title: "الحب",
         image: "/9.jpg",
-        date: "يبقى موجود",
-        text: "في النهاية، التقدير الصادق يفضل له مكان، والصفحة دي جزء من التقدير ده.",
+        date: "من قلبي",
+        text: "لو سألوني عنك... هقول سعادة دخلت حياتي، ومش عايزاها تنتهي ♥️",
       },
     ],
     []
@@ -168,22 +168,22 @@ export default function App() {
       {
         title: "أول معرفة",
         date: "البداية",
-        text: "أول انطباع كان كفاية يوضح إنك شخص ليه طابع مختلف.",
+        text: "من أول لحظة، حسّيت إن في حاجة مختلفة ومميزة فيك.",
       },
       {
-        title: "وضوح المكانة",
+        title: "أول راحة",
         date: "بعدها بشوية",
-        text: "مع الوقت، بعض الصفات بتبان أكثر، وبعض الناس قيمتهم بتثبت.",
+        text: "مع الوقت، ابتديت أحس إن وجودك بيدي قلبي راحة غريبة وحلوة.",
       },
       {
-        title: "مرور الوقت",
-        date: "أصعب مرحلة",
-        text: "الوقت بيختبر كل شيء، والناس الحقيقية بيبان قدرها أكثر مع الأيام.",
+        title: "المكانة",
+        date: "مع الأيام",
+        text: "كل يوم كان بيأكد لي إنك مش شخص عادي... لكن حد له مكان خاص جدًا.",
       },
       {
-        title: "النهارده",
-        date: "دلوقتي",
-        text: "النهارده الفكرة كلها إن في ذكرى تستحق تتعمل بشكل محترم ومميز.",
+        title: "دلوقتي",
+        date: "النهارده",
+        text: "النهارده بقى عندي يقين إنك من أجمل الحاجات اللي دخلت حياتي.",
       },
     ],
     []
@@ -192,23 +192,23 @@ export default function App() {
   const facts = useMemo(
     () => [
       { title: "الاسم", value: DISPLAY_NAME },
-      { title: "المكانة", value: "ثابتة" },
+      { title: "مكانك", value: "في قلبي" },
       { title: "عدد الصور", value: "9" },
-      { title: "الطابع", value: "مميز" },
+      { title: "الإحساس", value: "لا يوصف" },
     ],
     []
   );
 
   const reasons = useMemo(
     () => [
-      "حضورك",
+      "وجودك",
+      "قربك",
+      "كلامك",
+      "ضحكتك",
       "أسلوبك",
-      "ثباتك",
-      "هدوءك",
-      "شخصيتك",
-      "تفاصيلك",
+      "اهتمامك",
       "مكانتك",
-      "احترامك",
+      "الأمان معاك",
     ],
     []
   );
@@ -216,28 +216,28 @@ export default function App() {
   const differentReasons = useMemo(
     () => [
       {
-        title: "لك حضور",
-        text: "مش أي شخص يلفت الانتباه بهدوء، لكن حضورك من النوع الواضح.",
+        title: "فيك راحة",
+        text: "في وجودك راحة ما تتشرحش... شيء يطمن القلب بدون سبب واضح.",
       },
       {
-        title: "لك أسلوب",
-        text: "الأسلوب يفرق كثير، وطريقتك في الكلام والتصرف لها طابعها الخاص.",
+        title: "فيك طمأنينة",
+        text: "أنت من الناس اللي قربهم يهدّي الروح ويخلّي كل شيء أخف.",
       },
       {
-        title: "لك ثبات",
-        text: "الثبات من الصفات النادرة، وده من أكثر الأشياء اللي تدي قيمة حقيقية للشخص.",
+        title: "فيك حضور",
+        text: "حضورك مختلف، ويكفي إنه يبان من غير ما تحاول تعمل أي شيء.",
       },
       {
-        title: "لك مكانة",
-        text: "بعض الأشخاص ليهم قدر واضح، ومش بيحتاجوا يثبتوا ده كثير.",
+        title: "فيك سعادة",
+        text: "من الحاجات اللي حصلتلي وفعلًا غيرت فيا... إنك دخلت حياتي.",
       },
       {
-        title: "لك احترام",
-        text: "الاحترام الحقيقي بيتبني من الشخصية، وإنت من الناس اللي وجودهم يفرضه.",
+        title: "فيك دفا",
+        text: "في قربك إحساس جميل يخلي القلب حاسس بالأمان والونس.",
       },
       {
-        title: "لك أثر",
-        text: "في أشخاص بيعدوا، وفي أشخاص يفضل لهم أثر، وإنت من النوع التاني.",
+        title: "فيك شيء مميز",
+        text: "مش بعرف أوصفه، لكن بعرف أحسه... ودايمًا بحسه معاك.",
       },
     ],
     []
@@ -245,32 +245,32 @@ export default function App() {
 
   const paragraphs = useMemo(
     () => [
-      "بعض الأشخاص ما بيتنسوش بسهولة، مش لأنهم كانوا موجودين فقط، لكن لأن وجودهم كان له معنى.",
-      "فيه فرق بين شخص عادي وشخص له طابع يفضل واضح حتى بعد مرور الوقت، وإنت من النوع اللي له قيمة فعلًا.",
-      "التفاصيل الصغيرة أحيانًا هي اللي تفرق، وطريقة الحضور، والكلام، والثبات، كلها حاجات بتبني صورة محترمة ومميزة.",
-      "الفكرة من الصفحة دي مش الكلام فقط، لكن إنها تبقى ذكرى مرتبة ومحترمة، وتوصل تقدير حقيقي بشكل مختلف.",
+      "أنت من الحاجات الجميلة اللي دخلت حياتي من غير ترتيب، لكن غيرت فيها حاجات كثيرة بحضورك.",
+      "فيك شيء يخلّي القلب مطمّن، ويفتكر إن الدنيا لسه فيها حاجات تستحق الفرح.",
+      "كل مرة أفكر فيك، أحس إن وجودك مش عادي... وكأنك نعمة جات في الوقت اللي كان قلبي محتاجها فعلًا.",
+      "ولو سألتني الحياة عن أجمل ما أعطتني، يمكن أذكر اسمك قبل أي شيء.",
     ],
     []
   );
 
   const scatteredMessages = useMemo(
     () => [
-      "بعض الأسماء تفضل ثابتة.",
-      "الاحترام الحقيقي لا يُنسى.",
-      "القيمة تُرى في التفاصيل.",
-      "هناك حضور يفرض نفسه بهدوء.",
+      "حين يسألوني عنك سأقول: سعادة دخلت حياتي ♥️",
+      "You entered my life and I don't want it to end.",
+      "فيك شيء يشبه الراحة التي لا تُنسى.",
+      "بعض الأشخاص لا يعوضهم أحد.",
     ],
     []
   );
 
   const moments = useMemo(
     () => [
-      "لحظة نجاح تستحق التوثيق",
-      "ذكرى مميزة بشكل مختلف",
-      "هدية غير تقليدية ومحترمة",
-      "تفصيلة تبقى مع الوقت",
-      "صفحة فيها معنى وقيمة",
-      "ذكرى معمولة بذوق واهتمام",
+      "وجودك في حياتي",
+      "تفصيلة حلوة ما تتنسيش",
+      "سعادة جات في وقتها",
+      "راحة قلبي",
+      "ذكرى لها معنى",
+      "حضور غالي عليا",
     ],
     []
   );
@@ -364,7 +364,9 @@ export default function App() {
       if (selectedIndex !== null) {
         if (e.key === "ArrowRight") {
           setSelectedIndex((prev) =>
-            prev === null ? 0 : (prev - 1 + memoryCards.length) % memoryCards.length
+            prev === null
+              ? 0
+              : (prev - 1 + memoryCards.length) % memoryCards.length
           );
         }
         if (e.key === "ArrowLeft") {
@@ -461,9 +463,9 @@ export default function App() {
           <span>✦</span>
         </div>
         <div className="loader-circle"></div>
-        <h1>جارِ تجهيز الصفحة الخاصة بـ {DISPLAY_NAME}</h1>
+        <h1>جارِ تجهيز شيء جميل جدًا... مخصوص لـ {DISPLAY_NAME}</h1>
         <p className="loader-subtitle">
-          تفاصيل مرتبة، تصميم أنيق، وذكرى معمولة بشكل مختلف
+          A special place made with love, memories, and feelings 🤍
         </p>
       </div>
     );
@@ -492,13 +494,13 @@ export default function App() {
           </div>
 
           <div className="lock-icon">🔐</div>
-          <div className="cute-badge">نسخة خاصة ومميزة</div>
+          <div className="cute-badge">A very special page ♥️</div>
 
-          <h1>ادخل كلمة السر يا {DISPLAY_NAME}</h1>
+          <h1>اكتب كلمة السر يا {DISPLAY_NAME}</h1>
 
           <p className="password-subtext">
-            الصفحة دي معمولة بشكل خاص، فيها صور، تفاصيل، وكلام متجمعين في
-            نسخة مرتبة ومحترمة تليق بقيمتك.
+            المكان ده معمول ليك وبس... فيه صور، كلام، ومشاعر متجمعة
+            في حاجة صغيرة، لكن معناها كبير جدًا.
           </p>
 
           <form onSubmit={handleUnlock} className="password-form">
@@ -508,7 +510,7 @@ export default function App() {
               value={enteredPassword}
               onChange={(e) => setEnteredPassword(e.target.value)}
             />
-            <button type="submit">فتح الصفحة</button>
+            <button type="submit">افتح الصفحة</button>
           </form>
 
           {error && <div className="error-text">{error}</div>}
@@ -524,17 +526,18 @@ export default function App() {
         <div className="cinematic-overlay"></div>
 
         <div className="cinematic-card glass">
-          <span className="small-badge">نسخة خاصة</span>
+          <span className="small-badge">Made especially for you</span>
           <h1>{DISPLAY_NAME}</h1>
           <TypingText
-            text="بعض الأشخاص لا يحتاجون كثيرًا من الكلام... يكفي أن لهم مكانة واضحة."
+            text="You entered my life... and I don't want it to end."
             className="cinematic-typing"
             speed={28}
           />
           <p>
-            قبل ما تبدأ، خد لحظة هدوء...
+            قبل ما تبدأ...
+            خد نفس هادي،
             لأن اللي جاي مش مجرد صفحة،
-            لكنه ترتيب مختلف لذكرى تستحق.
+            ده مكان صغير معمول بكل الإحساس اللي جوايا ليك.
           </p>
           <button className="cinematic-btn" onClick={startExperience}>
             ابدأ
@@ -616,17 +619,20 @@ export default function App() {
 
       <main className="container">
         <section className="opening-note glass fade-up">
-          <span className="opening-note-badge">بداية الصفحة</span>
+          <span className="opening-note-badge">♥️ بداية الحكاية</span>
           <h2>أهلاً يا {DISPLAY_NAME}</h2>
           <p>
-            الصفحة دي معمولـة مخصوص علشان تجمع شوية تفاصيل لها قيمة،
-            وتطلع في شكل مرتب، هادي، ومختلف عن أي حاجة تقليدية.
+            الصفحة دي معمولة ليك أنتَ...
+            فيها شوية كلام من قلبي،
+            وشوية صور،
+            وشوية تفاصيل صغيرة...
+            لكن كلهم متعملين بحب كبير.
           </p>
         </section>
 
         <section className="hero-banner glass fade-up">
           <div className="hero-banner-text">
-            <span className="small-badge">نسخة مخصصة بالكامل</span>
+            <span className="small-badge">A page made only for you</span>
 
             <h1>
               {content.heroName}
@@ -656,7 +662,7 @@ export default function App() {
                 className="btn btn-outline"
                 onClick={() => setShowLastWords(true)}
               >
-                كلمة أخيرة
+                آخر كلام
               </button>
             </div>
           </div>
@@ -674,23 +680,23 @@ export default function App() {
         <section className="stats-grid fade-up">
           <div className="stat-card glass">
             <strong>{counter.days}</strong>
-            <span>يوم من البداية</span>
+            <span>يوم من الحكاية</span>
           </div>
 
           <div className="stat-card glass cute-counter-card">
             <div className="pulse-ring"></div>
             <strong>{counter.hours}</strong>
-            <span>ساعة من الذكرى</span>
+            <span>ساعة من القرب</span>
           </div>
 
           <div className="stat-card glass">
             <strong>{memoryCards.length}</strong>
-            <span>صورة</span>
+            <span>ذكرى</span>
           </div>
 
           <div className="stat-card glass">
             <strong>∞</strong>
-            <span>تقدير</span>
+            <span>حب</span>
           </div>
         </section>
 
@@ -719,7 +725,7 @@ export default function App() {
         </section>
 
         <section className="huge-counter-section glass fade-up" id="counterSection">
-          <span className="small-badge">العداد</span>
+          <span className="small-badge">⏳ من أول ما عرفتك</span>
           <h2>{content.timerTitle}</h2>
           <p>{content.timerText}</p>
 
@@ -747,8 +753,8 @@ export default function App() {
               <div className="music-title-wrap">
                 <div className={`disc ${isPlaying ? "spin" : ""}`}>🎵</div>
                 <div>
-                  <strong>الموسيقى</strong>
-                  <small>مشغل مدمج داخل الصفحة</small>
+                  <strong>Our song</strong>
+                  <small>هتشتغل لو المتصفح سمح</small>
                 </div>
               </div>
 
@@ -774,12 +780,12 @@ export default function App() {
 
         <section className="voice-section glass fade-up">
           <div className="voice-left">
-            <span className="small-badge">رسالة صوتية</span>
-            <h2>استمع للتسجيل</h2>
+            <span className="small-badge">🎙️ رسالة صوتية</span>
+            <h2>اسمع رسالتي</h2>
             <p>
-              ويمكنك إضافة ملف صوتي في المسار{" "}
-              <strong>/voice-message.mp3</strong>
-              ليظهر هنا بنفس الشكل.
+              ولو حبيت تضيف تسجيل صوتي،
+              حطه في المسار <strong>/voice-message.mp3</strong>
+              وهيظهر هنا بنفس الشكل.
             </p>
           </div>
 
@@ -812,8 +818,8 @@ export default function App() {
         <section className="different-section fade-up">
           <div className="section-head centered-head">
             <div>
-              <h3>أشياء تميزك</h3>
-              <p>صفات واضحة تدي للشخص قيمته الحقيقية</p>
+              <h3>حاجات فيك بحبها</h3>
+              <p>Things I love about you</p>
             </div>
           </div>
 
@@ -829,15 +835,15 @@ export default function App() {
         </section>
 
         <section className="wide-message glass fade-up">
-          <span className="small-badge">رسالة</span>
-          <h2>كلام يستحق يتقال</h2>
+          <span className="small-badge">💌 رسالة من قلبي</span>
+          <h2>الكلام اللي لازم تعرفه</h2>
           <p>{content.longMessage}</p>
         </section>
 
         <section className="extra-love-section fade-up">
           {paragraphs.map((paragraph, index) => (
             <div className="extra-love-card glass" key={index}>
-              <h3>فقرة {index + 1}</h3>
+              <h3>رسالة {index + 1}</h3>
               <p>{paragraph}</p>
             </div>
           ))}
@@ -849,7 +855,7 @@ export default function App() {
 
         <section className="love-columns fade-up">
           <div className="love-column-card glass">
-            <h3>أكثر ما يميزك</h3>
+            <h3>أكثر ما أحبه فيك</h3>
             <ul>
               {reasons.map((item, index) => (
                 <li key={index}>{item}</li>
@@ -858,14 +864,14 @@ export default function App() {
           </div>
 
           <div className="love-column-card glass">
-            <h3>لما ييجي اسمك</h3>
+            <h3>When I think of you</h3>
             <ul>
-              <li>أفتكر حضور واضح</li>
-              <li>أفتكر شخصية مختلفة</li>
-              <li>أفتكر أسلوب له قيمة</li>
-              <li>أفتكر تفاصيل مميزة</li>
-              <li>أفتكر مكانة ثابتة</li>
-              <li>وأفتكر تقدير يستحق يفضل</li>
+              <li>أفتكر راحتي</li>
+              <li>أفتكر وجود جميل</li>
+              <li>أفتكر طمأنينة</li>
+              <li>أفتكر اسم غالي</li>
+              <li>أفتكر شخص مختلف</li>
+              <li>وأفتكر سعادة دخلت حياتي</li>
             </ul>
           </div>
         </section>
@@ -873,8 +879,8 @@ export default function App() {
         <section className="timeline-section glass fade-up">
           <div className="section-head">
             <div>
-              <h3>الخط الزمني</h3>
-              <p>ترتيب بسيط لذكرى لها معنى</p>
+              <h3>Timeline</h3>
+              <p>مشوار صغير... لكن له معنى كبير في قلبي</p>
             </div>
           </div>
 
@@ -895,8 +901,8 @@ export default function App() {
         <section className="reels-section glass fade-up" id="gallerySection">
           <div className="section-head slider-head">
             <div>
-              <h3>9 صور... وكل واحدة لها معنى</h3>
-              <p>جاليري مرتب بشكل واضح ومميز</p>
+              <h3>9 صور... وورا كل واحدة إحساس</h3>
+              <p>Every photo carries a special feeling</p>
             </div>
 
             <div className="slider-buttons">
@@ -947,7 +953,7 @@ export default function App() {
           <div className="section-head">
             <div>
               <h3>المعرض</h3>
-              <p>الصور بشكل أكبر وأوضح</p>
+              <p>صورك بشكل أكبر وأوضح</p>
             </div>
           </div>
 
@@ -975,8 +981,8 @@ export default function App() {
         <section className="wish-section fade-up">
           <div className="section-head centered-head">
             <div>
-              <h3>أفكار المعنى فيها أكبر من الشكل</h3>
-              <p>تفاصيل بسيطة لكن تبقى مميزة</p>
+              <h3>أفكار صغيرة... معناها كبير</h3>
+              <p>Little things, big meaning</p>
             </div>
           </div>
 
@@ -993,61 +999,60 @@ export default function App() {
         <section className="big-quotes-section fade-up">
           <div className="quote-box glass">
             <span className="quote-badge">❝</span>
-            <p>بعض الأشخاص لا يحتاجون إلى كثير من الظهور... يكفي أن لهم أثرًا واضحًا.</p>
+            <p>حين يسألوني عنك سأقول: سعادة دخلت حياتي ولا أريد لها أن تنتهي ♥️</p>
           </div>
           <div className="quote-box glass">
             <span className="quote-badge">❝</span>
-            <p>الاحترام الحقيقي لا يضيع، والمكانة الواضحة لا تحتاج شرحًا.</p>
+            <p>You entered my life and I don't want it to end.</p>
           </div>
           <div className="quote-box glass">
             <span className="quote-badge">❝</span>
-            <p>هناك أسماء تبقى محفوظة، لأنها ببساطة كانت مختلفة.</p>
+            <p>في قربك شيء يجعل القلب مطمئنًا دون أن يعرف السبب.</p>
           </div>
           <div className="quote-box glass">
             <span className="quote-badge">❝</span>
-            <p>القيمة لا تُقال كثيرًا... لكنها تظهر في التفاصيل.</p>
+            <p>أنت من الأشخاص الذين لا يمرّون عادي... بل يتركون أثرًا جميلًا لا يزول.</p>
           </div>
         </section>
 
         <section className="prayer-section glass fade-up">
-          <span className="small-badge">دعوة طيبة</span>
-          <h2>أمنية صادقة</h2>
+          <span className="small-badge">🤲 دعوة من قلبي</span>
+          <h2>أمنيتي ليك</h2>
           <p>{content.prayerText}</p>
         </section>
 
         <section className="extra-love-section fade-up">
           <div className="extra-love-card glass">
-            <h3>التقدير</h3>
+            <h3>السعادة</h3>
             <p>
-              الفكرة هنا قائمة على التقدير الحقيقي، والاهتمام بالتفاصيل، وتقديم
-              شيء له معنى.
+              وجودك في حياتي كان من الحاجات اللي خلت قلبي يعرف معنى الراحة من جديد.
             </p>
           </div>
           <div className="extra-love-card glass">
-            <h3>الاختلاف</h3>
+            <h3>القرب</h3>
             <p>
-              النسخة دي معمولة بشكل مختلف، بعيد عن التقليدي، وتطلع في النهاية
-              بشكل يلفت ويستحق.
+              مش كل حد قربه يفرق... لكن قربك أنت كان له أثر حقيقي وجميل جدًا.
             </p>
           </div>
           <div className="extra-love-card glass">
-            <h3>القيمة</h3>
+            <h3>المكانة</h3>
             <p>
-              بعض الهدايا تنتهي بسرعة، لكن بعض الأفكار تفضل ذكرى محترمة ومميزة
-              مع الوقت.
+              ليك مكان خاص جدًا... مكان ما حدش يقدر ياخده، ومش عايزة الأيام تغيره أبدًا.
             </p>
           </div>
         </section>
 
         <section className="final-cute-section glass fade-up">
-          <span className="small-badge">الخاتمة</span>
-          <h2>وفي النهاية</h2>
+          <span className="small-badge">🤍 في الآخر</span>
+          <h2>آخر كلام</h2>
           <p>{content.finalText}</p>
 
           <div className="final-promise">
             <p>
-              الفكرة كلها إن يبقى في شيء متعمل بذوق، ومرتب بشكل واضح،
-              ويحفظ الذكرى بطريقة مختلفة عن أي حاجة معتادة.
+              يمكن الصفحة تخلص...
+              لكن الإحساس اللي وراها عمره ما كان مجرد تصميم أو كلام،
+              ده مكان معمول من قلب حقيقي،
+              لشخص غالي فعلًا.
             </p>
           </div>
 
@@ -1056,14 +1061,14 @@ export default function App() {
               className="btn btn-primary"
               onClick={() => setShowLastWords(true)}
             >
-              عرض الكلمة الأخيرة
+              افتح آخر كلام
             </button>
 
             <button
               className="btn btn-secondary"
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             >
-              الرجوع للبداية
+              ارجع للبداية
             </button>
           </div>
         </section>
@@ -1095,7 +1100,7 @@ export default function App() {
             </div>
 
             <div className="modal-content">
-              <span className="modal-chip">تفصيلة مختارة</span>
+              <span className="modal-chip">ذكرى مختارة</span>
               <small>
                 {selectedIndex + 1} / {memoryCards.length}
               </small>
@@ -1121,7 +1126,7 @@ export default function App() {
             >
               ×
             </button>
-            <span className="small-badge">كلمة أخيرة</span>
+            <span className="small-badge">Final words</span>
             <h2>الخلاصة</h2>
             <p>{content.lastWords}</p>
           </div>
